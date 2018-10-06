@@ -51,9 +51,9 @@ In your App Delegate,
 
  	import WeCardsSignIn
        
-       	func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+       func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
           return WCSignIn.sharedInstance().application(app, open: url, options: options)
-       	}
+	  }
 
 
 
