@@ -22,3 +22,25 @@ $ brew install carthage</pre></div>
 </code></pre>
 
 <p>Run <code>carthage update</code> to build the framework and drag the built <code>WeCardsSignIn.framework</code> into your Xcode project.</p>
+
+# .Plist Entries
+
+In order for your app to signin with WeCards, you'll need to ad these plist entries:
+
+    <key>WeCardsAppID</key>
+	<string>#WECARDS_APP_ID#</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>wecards</string>
+	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>#BUNDLE_IDENTIFIER#</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wecards#WECARDS_APP_ID#</string>
+			</array>
+		</dict>
+	</array>
