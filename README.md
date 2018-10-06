@@ -45,7 +45,7 @@ In order for your app to signin with WeCards, you'll need to ad these plist entr
 		</dict>
 	</array>
 	
-# Initialization
+# Configurations
 
 In your App Delegate,
 
@@ -55,6 +55,36 @@ In your App Delegate,
         return WCSignIn.sharedInstance().application(app, open: url, options: options)
     }
 
+In your View Controller,
+
+To initiate, add the following code to an appropriate view controller:
+
+    import WeCardsSignIn
+    
+    class ViewController: UIViewController, WeCardsSignInDelegate {
+
+        override func viewDidLoad() {
+            super.viewDidLoad()
+            // Do any additional setup after loading the view, typically from a nib.
+        
+            WCSignIn.sharedInstance().delegate = self
+            WCSignIn.sharedInstance().presentViewController(viewController: self)
+        }
+    }
+    
+When the authentication is complete, you will get a callback via the WeCardsSignInDelegate protocol:
+
+    func onAuthenticationSuccessful(dictionary: NSDictionary) {
+        print("Successful Authentication!")
+    }
+    
+    func onAuthenticationFail(message: String) {
+        print("Authentication Failed!")
+    }
+    
+    func onSignOutSuccessful(dictionary: NSDictionary) {
+        print("Signout successfully")
+    }
 
 
 
