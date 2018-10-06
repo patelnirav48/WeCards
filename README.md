@@ -3,9 +3,9 @@ The WeCards Sign-In iOS quick start demonstrates how to authenticate people with
 
 # Requirements
 
-    iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
-    Xcode 8.3+
-    Swift 3.1+
+    iOS 8.0+ / macOS 10.10+
+    Xcode 10.0+
+    Swift 4.2+
     
 # Installation
 
