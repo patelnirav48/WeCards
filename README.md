@@ -47,7 +47,7 @@ In order for your app to signin with WeCards, you'll need to ad these plist entr
 	
 # Configurations
 
-In your App Delegate,
+<h3>In your App Delegate,</h3>
 
     import WeCardsSignIn
        
@@ -55,7 +55,7 @@ In your App Delegate,
         return WCSignIn.sharedInstance().application(app, open: url, options: options)
     }
 
-In your View Controller,
+<h3>In your View Controller,</h3>
 
 To initiate, add the following code to an appropriate view controller:
 
