@@ -17,7 +17,7 @@ The WeCards Sign-In iOS quick start demonstrates how to authenticate people with
 <div class="highlight highlight-source-shell"><pre>$ brew update
 $ brew install carthage</pre></div>
 
-<p>To integrate WeCards Signin into your Xcode project using Carthage, specify it in your <code>Cartfile</code>:</p>
+<p>To integrate WeCards Sign-In into your Xcode project using Carthage, specify it in your <code>Cartfile</code>:</p>
 <pre lang="ogdl"><code>github "patelnirav48/WeCards" ~&gt; 1.0
 </code></pre>
 
