@@ -6,13 +6,19 @@ The WeCards Sign-In iOS quick start demonstrates how to authenticate people with
     iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
     Xcode 8.3+
     Swift 3.1+
-
+    
 # Installation
 
-Carthage
+<h3>Carthage</h3>
 
-Make sure you are running the latest version of Carthage by running:
+<p><a href="https://github.com/Carthage/Carthage">Carthage</a> is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.</p>
 
-brew update
-brew upgrade carthage
+<p>You can install Carthage with <a href="https://brew.sh/" rel="nofollow">Homebrew</a> using the following command:</p>
+<div class="highlight highlight-source-shell"><pre>$ brew update
+$ brew install carthage</pre></div>
 
+<p>To integrate Alamofire into your Xcode project using Carthage, specify it in your <code>Cartfile</code>:</p>
+<pre lang="ogdl"><code>github "patelnirav48/WeCards" ~&gt; 1.0
+</code></pre>
+
+<p>Run <code>carthage update</code> to build the framework and drag the built <code>WeCardsSignIn.framework</code> into your Xcode project.</p>
