@@ -44,3 +44,20 @@ In order for your app to signin with WeCards, you'll need to ad these plist entr
 			</array>
 		</dict>
 	</array>
+	
+# Initialization
+
+In your App Delegate,
+
+       import WeCardsSignIn
+       
+       func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool{
+          return WCSignIn.sharedInstance().application(app, open: url, options: options)
+       }
+
+
+
+
+
+
+	
