@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
           #7.
           s.platform            = :ios, "10.0"
           #8.
-          s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => s.version.to_s }
+          s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => s.version.to_s , :branch => 'master'}
           #9.
           s.source_files     = "WeCardsSignIn", "WeCardsSignIn/**/*.{h}"
           s.resources = "WeCardsSignIn/WeCardsResources.bundle"
