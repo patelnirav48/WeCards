@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19176CA92167801B00EC92DC /* WeCardsSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19176CA82167801B00EC92DC /* WeCardsSignIn.framework */; };
+		19176CAA2167801F00EC92DC /* WeCardsSignIn.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19176CA82167801B00EC92DC /* WeCardsSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1997D6872166230B005BD1AE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1997D6862166230B005BD1AE /* Alamofire.framework */; };
+		1997D6882166231B005BD1AE /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1997D6862166230B005BD1AE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		19FD62F32165FF430097E0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62F22165FF430097E0B0 /* AppDelegate.swift */; };
+		19FD62F52165FF430097E0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62F42165FF430097E0B0 /* ViewController.swift */; };
+		19FD62F82165FF430097E0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FD62F62165FF430097E0B0 /* Main.storyboard */; };
+		19FD62FA2165FF450097E0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD62F92165FF450097E0B0 /* Assets.xcassets */; };
+		19FD62FD2165FF450097E0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FD62FB2165FF450097E0B0 /* LaunchScreen.storyboard */; };
+		19FD63082165FF450097E0B0 /* WeCardsSignIn_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD63072165FF450097E0B0 /* WeCardsSignIn_DemoTests.swift */; };
+		19FD63132165FF450097E0B0 /* WeCardsSignIn_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD63122165FF450097E0B0 /* WeCardsSignIn_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19FD63042165FF450097E0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FD62E72165FF420097E0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FD62EE2165FF430097E0B0;
+			remoteInfo = "WeCardsSignIn-Demo";
+		};
+		19FD630F2165FF450097E0B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19FD62E72165FF420097E0B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19FD62EE2165FF430097E0B0;
+			remoteInfo = "WeCardsSignIn-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		19FD6323216600320097E0B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				19176CAA2167801F00EC92DC /* WeCardsSignIn.framework in CopyFiles */,
+				1997D6882166231B005BD1AE /* Alamofire.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19176CA82167801B00EC92DC /* WeCardsSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeCardsSignIn.framework; sourceTree = "<group>"; };
+		1997D6862166230B005BD1AE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		19FD62EF2165FF430097E0B0 /* WeCardsSignIn-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeCardsSignIn-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FD62F22165FF430097E0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		19FD62F42165FF430097E0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19FD62F72165FF430097E0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19FD62F92165FF450097E0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19FD62FC2165FF450097E0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19FD62FE2165FF450097E0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FD63032165FF450097E0B0 /* WeCardsSignIn-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeCardsSignIn-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FD63072165FF450097E0B0 /* WeCardsSignIn_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeCardsSignIn_DemoTests.swift; sourceTree = "<group>"; };
+		19FD63092165FF450097E0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FD630E2165FF450097E0B0 /* WeCardsSignIn-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeCardsSignIn-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FD63122165FF450097E0B0 /* WeCardsSignIn_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeCardsSignIn_DemoUITests.swift; sourceTree = "<group>"; };
+		19FD63142165FF450097E0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19FD62EC2165FF430097E0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19176CA92167801B00EC92DC /* WeCardsSignIn.framework in Frameworks */,
+				1997D6872166230B005BD1AE /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FD63002165FF450097E0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FD630B2165FF450097E0B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19FD62E62165FF420097E0B0 = {
+			isa = PBXGroup;
+			children = (
+				19FD62F12165FF430097E0B0 /* WeCardsSignIn-Demo */,
+				19FD63062165FF450097E0B0 /* WeCardsSignIn-DemoTests */,
+				19FD63112165FF450097E0B0 /* WeCardsSignIn-DemoUITests */,
+				19FD62F02165FF430097E0B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19FD62F02165FF430097E0B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19FD62EF2165FF430097E0B0 /* WeCardsSignIn-Demo.app */,
+				19FD63032165FF450097E0B0 /* WeCardsSignIn-DemoTests.xctest */,
+				19FD630E2165FF450097E0B0 /* WeCardsSignIn-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19FD62F12165FF430097E0B0 /* WeCardsSignIn-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				19FD63202165FFB30097E0B0 /* Frameworks */,
+				19FD62F22165FF430097E0B0 /* AppDelegate.swift */,
+				19FD62F42165FF430097E0B0 /* ViewController.swift */,
+				19FD62F62165FF430097E0B0 /* Main.storyboard */,
+				19FD62F92165FF450097E0B0 /* Assets.xcassets */,
+				19FD62FB2165FF450097E0B0 /* LaunchScreen.storyboard */,
+				19FD62FE2165FF450097E0B0 /* Info.plist */,
+			);
+			path = "WeCardsSignIn-Demo";
+			sourceTree = "<group>";
+		};
+		19FD63062165FF450097E0B0 /* WeCardsSignIn-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				19FD63072165FF450097E0B0 /* WeCardsSignIn_DemoTests.swift */,
+				19FD63092165FF450097E0B0 /* Info.plist */,
+			);
+			path = "WeCardsSignIn-DemoTests";
+			sourceTree = "<group>";
+		};
+		19FD63112165FF450097E0B0 /* WeCardsSignIn-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19FD63122165FF450097E0B0 /* WeCardsSignIn_DemoUITests.swift */,
+				19FD63142165FF450097E0B0 /* Info.plist */,
+			);
+			path = "WeCardsSignIn-DemoUITests";
+			sourceTree = "<group>";
+		};
+		19FD63202165FFB30097E0B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19176CA82167801B00EC92DC /* WeCardsSignIn.framework */,
+				1997D6862166230B005BD1AE /* Alamofire.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19FD62EE2165FF430097E0B0 /* WeCardsSignIn-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FD63172165FF450097E0B0 /* Build configuration list for PBXNativeTarget "WeCardsSignIn-Demo" */;
+			buildPhases = (
+				19FD62EB2165FF430097E0B0 /* Sources */,
+				19FD62EC2165FF430097E0B0 /* Frameworks */,
+				19FD62ED2165FF430097E0B0 /* Resources */,
+				19FD6323216600320097E0B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeCardsSignIn-Demo";
+			productName = "WeCardsSignIn-Demo";
+			productReference = 19FD62EF2165FF430097E0B0 /* WeCardsSignIn-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19FD63022165FF450097E0B0 /* WeCardsSignIn-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FD631A2165FF450097E0B0 /* Build configuration list for PBXNativeTarget "WeCardsSignIn-DemoTests" */;
+			buildPhases = (
+				19FD62FF2165FF450097E0B0 /* Sources */,
+				19FD63002165FF450097E0B0 /* Frameworks */,
+				19FD63012165FF450097E0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19FD63052165FF450097E0B0 /* PBXTargetDependency */,
+			);
+			name = "WeCardsSignIn-DemoTests";
+			productName = "WeCardsSignIn-DemoTests";
+			productReference = 19FD63032165FF450097E0B0 /* WeCardsSignIn-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19FD630D2165FF450097E0B0 /* WeCardsSignIn-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19FD631D2165FF450097E0B0 /* Build configuration list for PBXNativeTarget "WeCardsSignIn-DemoUITests" */;
+			buildPhases = (
+				19FD630A2165FF450097E0B0 /* Sources */,
+				19FD630B2165FF450097E0B0 /* Frameworks */,
+				19FD630C2165FF450097E0B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19FD63102165FF450097E0B0 /* PBXTargetDependency */,
+			);
+			name = "WeCardsSignIn-DemoUITests";
+			productName = "WeCardsSignIn-DemoUITests";
+			productReference = 19FD630E2165FF450097E0B0 /* WeCardsSignIn-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19FD62E72165FF420097E0B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Nirav Patel";
+				TargetAttributes = {
+					19FD62EE2165FF430097E0B0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					19FD63022165FF450097E0B0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 19FD62EE2165FF430097E0B0;
+					};
+					19FD630D2165FF450097E0B0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 19FD62EE2165FF430097E0B0;
+					};
+				};
+			};
+			buildConfigurationList = 19FD62EA2165FF420097E0B0 /* Build configuration list for PBXProject "WeCardsSignIn-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19FD62E62165FF420097E0B0;
+			productRefGroup = 19FD62F02165FF430097E0B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19FD62EE2165FF430097E0B0 /* WeCardsSignIn-Demo */,
+				19FD63022165FF450097E0B0 /* WeCardsSignIn-DemoTests */,
+				19FD630D2165FF450097E0B0 /* WeCardsSignIn-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19FD62ED2165FF430097E0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FD62FD2165FF450097E0B0 /* LaunchScreen.storyboard in Resources */,
+				19FD62FA2165FF450097E0B0 /* Assets.xcassets in Resources */,
+				19FD62F82165FF430097E0B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FD63012165FF450097E0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FD630C2165FF450097E0B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19FD62EB2165FF430097E0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FD62F52165FF430097E0B0 /* ViewController.swift in Sources */,
+				19FD62F32165FF430097E0B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FD62FF2165FF450097E0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FD63082165FF450097E0B0 /* WeCardsSignIn_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19FD630A2165FF450097E0B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19FD63132165FF450097E0B0 /* WeCardsSignIn_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19FD63052165FF450097E0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FD62EE2165FF430097E0B0 /* WeCardsSignIn-Demo */;
+			targetProxy = 19FD63042165FF450097E0B0 /* PBXContainerItemProxy */;
+		};
+		19FD63102165FF450097E0B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19FD62EE2165FF430097E0B0 /* WeCardsSignIn-Demo */;
+			targetProxy = 19FD630F2165FF450097E0B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19FD62F62165FF430097E0B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19FD62F72165FF430097E0B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19FD62FB2165FF450097E0B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19FD62FC2165FF450097E0B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19FD63152165FF450097E0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19FD63162165FF450097E0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19FD63182165FF450097E0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XLUSVCV5L4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeCardsSignIn-Demo/Frameworks",
+				);
+				INFOPLIST_FILE = "WeCardsSignIn-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CCS.WeCardsSignIn-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "CCS TEAM PROVISIONING - GLOBAL";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19FD63192165FF450097E0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = XLUSVCV5L4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeCardsSignIn-Demo/Frameworks",
+				);
+				INFOPLIST_FILE = "WeCardsSignIn-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CCS.WeCardsSignIn-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "CCS TEAM PROVISIONING - GLOBAL";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19FD631B2165FF450097E0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WeCardsSignIn-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CCS..WeCardsSignIn-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeCardsSignIn-Demo.app/WeCardsSignIn-Demo";
+			};
+			name = Debug;
+		};
+		19FD631C2165FF450097E0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WeCardsSignIn-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CCS..WeCardsSignIn-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeCardsSignIn-Demo.app/WeCardsSignIn-Demo";
+			};
+			name = Release;
+		};
+		19FD631E2165FF450097E0B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WeCardsSignIn-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CCS..WeCardsSignIn-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WeCardsSignIn-Demo";
+			};
+			name = Debug;
+		};
+		19FD631F2165FF450097E0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WeCardsSignIn-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.CCS..WeCardsSignIn-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WeCardsSignIn-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19FD62EA2165FF420097E0B0 /* Build configuration list for PBXProject "WeCardsSignIn-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FD63152165FF450097E0B0 /* Debug */,
+				19FD63162165FF450097E0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19FD63172165FF450097E0B0 /* Build configuration list for PBXNativeTarget "WeCardsSignIn-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FD63182165FF450097E0B0 /* Debug */,
+				19FD63192165FF450097E0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19FD631A2165FF450097E0B0 /* Build configuration list for PBXNativeTarget "WeCardsSignIn-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FD631B2165FF450097E0B0 /* Debug */,
+				19FD631C2165FF450097E0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19FD631D2165FF450097E0B0 /* Build configuration list for PBXNativeTarget "WeCardsSignIn-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19FD631E2165FF450097E0B0 /* Debug */,
+				19FD631F2165FF450097E0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19FD62E72165FF420097E0B0 /* Project object */;
+}
