@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
           s.source_files     = "WeCardsSignIn", "WeCardsSignIn/**/*.{h, swift}"
           s.resources = "WeCardsSignIn/*.bundle", "WeCardsSignIn/*.storyboard"
           s.dependency 'Alamofire', '~> 4.7' 
-
-	  s.swift_version = "4.2"
+          s.frameworks = 'WeCardsSignIn'
+          s.swift_version = "4.2"
     end
