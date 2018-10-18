@@ -31,15 +31,15 @@ $ brew install carthage</pre></div>
 <div class="highlight highlight-source-shell"><pre>$ gem install cocoapods</pre></div>
 
 <p>To integrate WeCards Sign-In into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
-<pre lang="ogdl"><code>source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '10.0'
-use_frameworks!
+<pre lang="ogdl"><code>
+    source 'https://github.com/CocoaPods/Specs.git'
+    platform :ios, '10.0'
+    use_frameworks!
 
-
-target '&lt;Your Target Name&gt;' do
+    target '&lt;Your Target Name&gt;' do
     pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
     pod 'Alamofire', '~> 4.7'
-end</code></pre>
+    end</code></pre>
 
 <p>Then, run the following command:</p>
 <div class="highlight highlight-source-shell"><pre>$ pod install</pre></div>
