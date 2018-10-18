@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
           #8.
           s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => "1.0" }
           #9.
-          s.source_files     = "WeCardsSignIn/**/*.{h, swift}"
-          s.resources = "WeCardsSignIn/*.bundle", "WeCardsSignIn/*.storyboard"
+          s.source_files     = "WeCardsSignIn/**/*.{h}"
           s.dependency 'Alamofire', '~> 4.7' 
           s.frameworks = 'WeCardsSignIn'
 	  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
