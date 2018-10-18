@@ -3,6 +3,6 @@ platform :ios, '10.0'
 use_frameworks!
 
 target 'WeCardsSignIn-Demo' do
-    pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
+    pod 'WeCardsSignIn', :path => '../'
     pod 'Alamofire', '~> 4.7'
 end
