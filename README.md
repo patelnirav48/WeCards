@@ -39,7 +39,7 @@ $ brew install carthage</pre></div>
     target '<Your Target Name>' do
        pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
        pod 'Alamofire', '~> 4.7'
-    end</code></pre>
+    end
 
 <p>Then, run the following command:</p>
 <div class="highlight highlight-source-shell"><pre>$ pod install</pre></div>
