@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		19176CA92167801B00EC92DC /* WeCardsSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19176CA82167801B00EC92DC /* WeCardsSignIn.framework */; };
 		19176CAA2167801F00EC92DC /* WeCardsSignIn.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19176CA82167801B00EC92DC /* WeCardsSignIn.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1997D6872166230B005BD1AE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1997D6862166230B005BD1AE /* Alamofire.framework */; };
-		1997D6882166231B005BD1AE /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1997D6862166230B005BD1AE /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		19FD62F32165FF430097E0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62F22165FF430097E0B0 /* AppDelegate.swift */; };
 		19FD62F52165FF430097E0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62F42165FF430097E0B0 /* ViewController.swift */; };
 		19FD62F82165FF430097E0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FD62F62165FF430097E0B0 /* Main.storyboard */; };
@@ -45,7 +43,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				19176CAA2167801F00EC92DC /* WeCardsSignIn.framework in CopyFiles */,
-				1997D6882166231B005BD1AE /* Alamofire.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +50,6 @@
 
 /* Begin PBXFileReference section */
 		19176CA82167801B00EC92DC /* WeCardsSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WeCardsSignIn.framework; sourceTree = "<group>"; };
-		1997D6862166230B005BD1AE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		19FD62EF2165FF430097E0B0 /* WeCardsSignIn-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeCardsSignIn-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FD62F22165FF430097E0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		19FD62F42165FF430097E0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +71,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				19176CA92167801B00EC92DC /* WeCardsSignIn.framework in Frameworks */,
-				1997D6872166230B005BD1AE /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				19176CA82167801B00EC92DC /* WeCardsSignIn.framework */,
-				1997D6862166230B005BD1AE /* Alamofire.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";

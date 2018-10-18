@@ -8,7 +8,6 @@
 
 import UIKit
 import WeCardsSignIn
-import Alamofire
 
 class ViewController: UIViewController, WeCardsSignInDelegate {
 
