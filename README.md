@@ -23,6 +23,27 @@ $ brew install carthage</pre></div>
 
 <p>Run <code>carthage update</code> to build the framework and drag the built <code>WeCardsSignIn.framework</code> into your Xcode project.</p>
 
+<h3>CocoaPods</h3>
+
+<p><a href="https://cocoapods.org/">CocoaPods</a> is a dependency manager for Cocoa projects. You can install it with the following command:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ gem install cocoapods</pre></div>
+
+<p>To integrate WeCards Sign-In into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
+<pre lang="ogdl"><code>source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'WeCardsSignIn-Demo' do
+    pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
+    pod 'Alamofire', '~> 4.7'
+end
+
+</code></pre>
+
+<p>Then, run the following command: 
+<code>$ pod install</code> </p>
+
 # .plist Entries
 
 In order for your app to signin with WeCards, you'll need to ad these plist entries:
