@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "WeCardsSignIn"
           #2.
-          s.version            = "1.0.0"
+          s.version            = "1.0"
           #3.  
           s.summary         = "The WeCards Sign-In iOS quickstart demonstrates how to authenticate people with their WeCards credentials."
           #4.
@@ -14,11 +14,10 @@ Pod::Spec.new do |s|
           #7.
           s.platform            = :ios, "10.0"
           #8.
-          s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => s.version.to_s , :branch => 'master'}
+          s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => "1.0" }
           #9.
           s.source_files     = "WeCardsSignIn", "WeCardsSignIn/**/*.{h}"
-          s.resources = "WeCardsSignIn/WeCardsResources.bundle"
-          s.swift_version = "4.2"
-          s.requires_arc = true
-
+          s.resources = "WeCardsSignIn/*.bundle", "WeCardsSignIn/*.storyboard"
+          s.dependency 'Alamofire', '~> 4.7' 
+	  s.swift_version = "4.2"
     end
