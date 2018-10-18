@@ -20,5 +20,8 @@ Pod::Spec.new do |s|
           s.resources = "WeCardsSignIn/*.bundle", "WeCardsSignIn/*.storyboard"
           s.dependency 'Alamofire', '~> 4.7' 
           s.frameworks = 'WeCardsSignIn'
+	  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
+	  s.vendored_frameworks = 'WeCardsSignIn.framework'
+
           s.swift_version = "4.2"
     end
