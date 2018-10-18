@@ -35,10 +35,10 @@ $ brew install carthage</pre></div>
 platform :ios, '10.0'
 use_frameworks!
 
-target 'WeCardsSignIn-Demo' do
+<p>target '<Your Target Name>' do
     pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
     pod 'Alamofire', '~> 4.7'
-end</code></pre>
+end</p></code></pre>
 
 <p>Then, run the following command:</p>
 <div class="highlight highlight-source-shell"><pre>$ pod install</pre></div>
