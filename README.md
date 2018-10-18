@@ -23,6 +23,7 @@ $ brew install carthage</pre></div>
 
 <p>Run <code>carthage update</code> to build the framework and drag the built <code>WeCardsSignIn.framework</code> into your Xcode project.</p>
 
+
 <h3>CocoaPods</h3>
 
 <p><a href="https://cocoapods.org/">CocoaPods</a> is a dependency manager for Cocoa projects. You can install it with the following command:</p>
@@ -37,12 +38,10 @@ use_frameworks!
 target 'WeCardsSignIn-Demo' do
     pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
     pod 'Alamofire', '~> 4.7'
-end
+end</code></pre>
 
-</code></pre>
-
-<p>Then, run the following command: 
-<code>$ pod install</code> </p>
+<p>Then, run the following command:</p>
+<div class="highlight highlight-source-shell"><pre>$ pod install</pre></div>
 
 # .plist Entries
 
