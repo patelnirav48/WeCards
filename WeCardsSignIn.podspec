@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
           #8.
           s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => "1.0" }
           #9.
-          s.source_files     = "WeCardsSignIn", "WeCardsSignIn/**/*.{h}"
+          s.source_files     = "WeCardsSignIn", "WeCardsSignIn/**/*.{h, swift}"
           s.resources = "WeCardsSignIn/*.bundle", "WeCardsSignIn/*.storyboard"
           s.dependency 'Alamofire', '~> 4.7' 
 	  s.swift_version = "4.2"
