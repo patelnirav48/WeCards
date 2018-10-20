@@ -37,7 +37,7 @@ $ brew install carthage</pre></div>
     use_frameworks!
 
     target '<Your Target Name>' do
-       pod 'WeCardsSignIn', :path => '../WeCardsSignIn'
+       pod 'WeCardsSignIn', :path => '../'
        pod 'Alamofire', '~> 4.7'
     end
 
