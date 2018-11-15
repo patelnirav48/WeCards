@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
           s.source              = { :git => "https://github.com/patelnirav48/WeCards.git", :tag => "1.0" }
           #9.
 
-          s.source_files     = "WeCardsSignIn/**/*.{h,swift,storyboard}"
-	  s.resources        = "WeCardsSignIn/*.{bundle}"
+          s.source_files     = "WeCardsSignIn/**/*.{h,swift}"
+	  s.resources        = "WeCardsSignIn/*.{bundle,storyboard}"
 	  
           #s.resource_bundles = "WeCardsSignIn/*.{bundle}"
           #s.exclude_files = "WeCardsSignIn/**/*.{framework}"

@@ -113,7 +113,7 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         aObjSignVC.didMove(toParent: targetVC)
     }
     
-    func signOut(viewController: UIViewController!, userId: String!, loginToken: String!) {
+    public func signOut(viewController: UIViewController!, userId: String!, loginToken: String!) {
         
         let aMutDictParams: NSMutableDictionary = ["api_key": mutDictParams.value(forKey: "app_id") as? String ?? "",
                                                    "packagename": mutDictParams.value(forKey: "bundle_identifier") as? String ?? "",
