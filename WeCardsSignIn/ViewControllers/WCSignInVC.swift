@@ -87,16 +87,16 @@ class WCSignInVC: UIViewController, WebServiceDelegate, UITextFieldDelegate, UIG
         lblSigninSubtitle.textColor = Constant.color.kTextColor
         
         txtCountryCode.placeholder = NSLocalizedString("LBL_COUNTRYCODE", tableName: "", bundle: bundle, value: "", comment: "")
-        txtCountryCode.font = Constant.FONT.Regular.of(size: 17.0)
+        txtCountryCode.font = Constant.FONT.Regular.of(size: 15.0)
         txtCountryCode.textColor = Constant.color.kTextColor
         txtCountryCode.text = String(format: "+%@", methodToGetCountryCodeBasedOnCarier().object(forKey: "country_code") as? String ?? "1")
         
         txtPhoneNumber.placeholder = NSLocalizedString("LBL_PHONENUMBER", tableName: "", bundle: bundle, value: "", comment: "")
-        txtPhoneNumber.font = Constant.FONT.Regular.of(size: 17.0)
+        txtPhoneNumber.font = Constant.FONT.Regular.of(size: 15.0)
         txtPhoneNumber.textColor = Constant.color.kTextColor
         
         txtPassword.placeholder = NSLocalizedString("LBL_PASSWORD", tableName: "", bundle: bundle, value: "", comment: "")
-        txtPassword.font = Constant.FONT.Regular.of(size: 17.0)
+        txtPassword.font = Constant.FONT.Regular.of(size: 15.0)
         txtPassword.textColor = Constant.color.kTextColor
         
         lblPrivacyMsg.text = String(format: NSLocalizedString("LBL_PRIVACYMESSAGE", tableName: "", bundle: bundle, value: "", comment: ""), mutDictParams.object(forKey: "app_name") as? String ?? "")

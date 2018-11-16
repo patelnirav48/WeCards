@@ -60,7 +60,10 @@ class CCSWebServiceModal: NSObject
         
         
         DispatchQueue.main.async {
-            (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled = false
+            
+            if ref is UIViewController {
+                (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled = false
+            }
         }
         
         let aStrFinalUrl = "\(Constant.structCommanUrl.kCommanUrl)\(aStrUrl)"
@@ -70,10 +73,10 @@ class CCSWebServiceModal: NSObject
         request.httpMethod = "POST"
         request.httpBody = try! JSONSerialization.data(withJSONObject: aMutDictParams)
         
-        let aStrJsonParams = try! JSONSerialization.data(withJSONObject: aMutDictParams)
+        /*let aStrJsonParams = try! JSONSerialization.data(withJSONObject: aMutDictParams)
         //AppDelegate().getInstance().log(message: "\(String(data: aStrJsonParams,encoding: .ascii)!)")
         
-        /*let aStrParams = NSString(data: aStrJsonParams, encoding: String.Encoding.utf8.rawValue)
+        let aStrParams = NSString(data: aStrJsonParams, encoding: String.Encoding.utf8.rawValue)
          
          request.allHTTPHeaderFields = ["x-hash": (HMAC.sign(message: (aStrParams! as String), algorithm: .md5, key: Constant.structApi.kAPISecret))!,
          "x-api-key": Constant.structApi.kAPIKey]
@@ -82,7 +85,7 @@ class CCSWebServiceModal: NSObject
         
         Alamofire.request(request).responseJSON { response in
             
-            if (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled == false {
+            if (ref is UIViewController) && (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled == false {
                 (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled = true
             }
             

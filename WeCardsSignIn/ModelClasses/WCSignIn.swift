@@ -17,7 +17,6 @@ public protocol WeCardsSignInDelegate
 
 public class WCSignIn: NSObject, WebServiceDelegate {
 
-    var window = UIWindow()
     var mainStoryBoard = UIStoryboard()
     var mutDictParams = NSMutableDictionary()
     
@@ -66,13 +65,6 @@ public class WCSignIn: NSObject, WebServiceDelegate {
 
         //Initialization
         mainStoryBoard = UIStoryboard(name: "WeCards", bundle: Bundle(for: WCSignIn.self))
-
-        window = UIApplication.shared.keyWindow ?? UIWindow()
-        window.backgroundColor = .clear
-
-        window.rootViewController = UIViewController()
-        window.makeKey()
-        window.makeKeyAndVisible()
     }
     
     public func presentViewController(viewController: UIViewController!) {
@@ -107,8 +99,11 @@ public class WCSignIn: NSObject, WebServiceDelegate {
                                     "packagename": mutDictParams.value(forKey: "bundle_identifier") as? String ?? "",
                                     "app_name": mutDictParams.value(forKey: "app_name") as? String ?? ""]
         
-        window.rootViewController?.addChild(aObjSignVC)
-        window.rootViewController?.view.addSubview(aObjSignVC.view)
+        if let window = UIApplication.shared.delegate?.window {
+            
+            window?.rootViewController?.addChild(aObjSignVC)
+            window?.rootViewController?.view.addSubview(aObjSignVC.view)
+        }
         
         aObjSignVC.didMove(toParent: targetVC)
     }
@@ -121,7 +116,7 @@ public class WCSignIn: NSObject, WebServiceDelegate {
                                                    "login_token": loginToken]
         
         DispatchQueue.global(qos: .default).async {
-            CCSWebServiceModal().callWebservice(aStrUrl: "open/user/login", aMutDictParams: aMutDictParams, ref: self, aStrTag: "WS_SIGNOUTWITHWECARDS")
+            CCSWebServiceModal().callWebservice(aStrUrl: "open/user/logout", aMutDictParams: aMutDictParams, ref: self, aStrTag: "WS_SIGNOUTWITHWECARDS")
         }
     }
     
