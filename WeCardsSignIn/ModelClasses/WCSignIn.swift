@@ -101,8 +101,13 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         
         if let window = UIApplication.shared.delegate?.window {
             
-            window?.rootViewController?.addChild(aObjSignVC)
-            window?.rootViewController?.view.addSubview(aObjSignVC.view)
+            /*window?.windowLevel = UIWindow.Level.alert
+             window?.rootViewController?.addChild(aObjSignVC)
+             window?.rootViewController?.view.addSubview(aObjSignVC.view)*/
+            
+            window?.addSubview(aObjSignVC.view)
+            aObjSignVC.didMove(toParent: targetVC)
+            targetVC.addChild(aObjSignVC)
         }
         
         aObjSignVC.didMove(toParent: targetVC)

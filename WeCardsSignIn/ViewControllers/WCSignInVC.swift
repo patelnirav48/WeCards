@@ -89,7 +89,7 @@ class WCSignInVC: UIViewController, WebServiceDelegate, UITextFieldDelegate, UIG
         txtCountryCode.placeholder = NSLocalizedString("LBL_COUNTRYCODE", tableName: "", bundle: bundle, value: "", comment: "")
         txtCountryCode.font = Constant.FONT.Regular.of(size: 15.0)
         txtCountryCode.textColor = Constant.color.kTextColor
-        txtCountryCode.text = String(format: "+%@", methodToGetCountryCodeBasedOnCarier().object(forKey: "country_code") as? String ?? "1")
+        txtCountryCode.text = String(format: "+%@", methodToGetCountryCodeBasedOnCarier().object(forKey: "country_code") as! NSNumber)
         
         txtPhoneNumber.placeholder = NSLocalizedString("LBL_PHONENUMBER", tableName: "", bundle: bundle, value: "", comment: "")
         txtPhoneNumber.font = Constant.FONT.Regular.of(size: 15.0)
@@ -208,7 +208,13 @@ class WCSignInVC: UIViewController, WebServiceDelegate, UITextFieldDelegate, UIG
         }
         else if aBtnSender == btnClose {
             
-            self.view.removeFromSuperview()
+            if let window = UIApplication.shared.delegate?.window {
+                
+                self.view.removeFromSuperview()
+                self.removeFromParent()
+                
+                window?.windowLevel = UIWindow.Level.normal
+            }
         }
     }
     
@@ -499,9 +505,15 @@ extension UIViewController {
             }))
         }
         
-        if let window = UIApplication.shared.windows.last {
+        let alertWindow = UIWindow(frame: UIScreen.main.bounds)
+        alertWindow.rootViewController = UIViewController()
+        alertWindow.windowLevel = UIWindow.Level.alert + 1;
+        alertWindow.makeKeyAndVisible()
+        alertWindow.rootViewController?.present(alertController, animated: true, completion: nil)
+        
+        /*if let window = UIApplication.shared.windows.last {
             window.rootViewController?.present(alertController, animated: true, completion: nil)
-        }
+         }*/
         
     }
 }
