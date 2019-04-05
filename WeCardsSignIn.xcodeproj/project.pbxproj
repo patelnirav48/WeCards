@@ -25,11 +25,9 @@
 		19192F51215E07440054FBEC /* WeCardsSignInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19192F50215E07440054FBEC /* WeCardsSignInTests.swift */; };
 		19192F53215E07440054FBEC /* WeCardsSignIn.h in Headers */ = {isa = PBXBuildFile; fileRef = 19192F45215E07440054FBEC /* WeCardsSignIn.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		195FC81621665A7C00F980DC /* WeCards.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 195FC81521665A7C00F980DC /* WeCards.storyboard */; };
-		1997D67F2166213F005BD1AE /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 19FD62CE2165F8510097E0B0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1997D6AF21663733005BD1AE /* WeCardsResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 19FD62CF2165F8510097E0B0 /* WeCardsResources.bundle */; };
 		19FD62DA2165F8510097E0B0 /* CCSWebServiceModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62C92165F8510097E0B0 /* CCSWebServiceModal.swift */; };
 		19FD62DB2165F8510097E0B0 /* WCSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62CA2165F8510097E0B0 /* WCSignIn.swift */; };
-		19FD62DD2165F8510097E0B0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19FD62CE2165F8510097E0B0 /* Alamofire.framework */; };
 		19FD62DF2165F8510097E0B0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62D22165F8510097E0B0 /* Reachability.swift */; };
 		19FD62E22165F8510097E0B0 /* WCSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62D62165F8510097E0B0 /* WCSignInVC.swift */; };
 		19FD62E32165F8510097E0B0 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD62D82165F8510097E0B0 /* Constant.swift */; };
@@ -57,7 +55,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1997D67F2166213F005BD1AE /* Alamofire.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +70,6 @@
 		195FC81521665A7C00F980DC /* WeCards.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WeCards.storyboard; sourceTree = "<group>"; };
 		19FD62C92165F8510097E0B0 /* CCSWebServiceModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSWebServiceModal.swift; sourceTree = "<group>"; };
 		19FD62CA2165F8510097E0B0 /* WCSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCSignIn.swift; sourceTree = "<group>"; };
-		19FD62CE2165F8510097E0B0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		19FD62CF2165F8510097E0B0 /* WeCardsResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WeCardsResources.bundle; sourceTree = "<group>"; };
 		19FD62D22165F8510097E0B0 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		19FD62D62165F8510097E0B0 /* WCSignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCSignInVC.swift; sourceTree = "<group>"; };
@@ -85,7 +81,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19FD62DD2165F8510097E0B0 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +116,6 @@
 		19192F44215E07440054FBEC /* WeCardsSignIn */ = {
 			isa = PBXGroup;
 			children = (
-				19FD62CD2165F8510097E0B0 /* Frameworks */,
 				19FD62C72165F8510097E0B0 /* ModelClasses */,
 				19FD62D72165F8510097E0B0 /* SourceFiles */,
 				19FD62D02165F8510097E0B0 /* ThirdPartyCode */,
@@ -150,14 +144,6 @@
 				19FD62CA2165F8510097E0B0 /* WCSignIn.swift */,
 			);
 			path = ModelClasses;
-			sourceTree = "<group>";
-		};
-		19FD62CD2165F8510097E0B0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				19FD62CE2165F8510097E0B0 /* Alamofire.framework */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 		19FD62D02165F8510097E0B0 /* ThirdPartyCode */ = {

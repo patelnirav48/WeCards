@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import Alamofire
-
 
 protocol WebServiceDelegate
 {
@@ -77,116 +75,87 @@ class CCSWebServiceModal: NSObject
         //AppDelegate().getInstance().log(message: "\(String(data: aStrJsonParams,encoding: .ascii)!)")
         
         let aStrParams = NSString(data: aStrJsonParams, encoding: String.Encoding.utf8.rawValue)
-         
-         request.allHTTPHeaderFields = ["x-hash": (HMAC.sign(message: (aStrParams! as String), algorithm: .md5, key: Constant.structApi.kAPISecret))!,
-         "x-api-key": Constant.structApi.kAPIKey]
-         
-         //AppDelegate().getInstance().log(message: "\(request.allHTTPHeaderFields!)")*/
         
-        Alamofire.request(request).responseJSON { response in
+        request.allHTTPHeaderFields = ["x-hash": (HMAC.sign(message: (aStrParams! as String), algorithm: .md5, key: Constant.structApi.kAPISecret))!,
+                                       "x-api-key": Constant.structApi.kAPIKey]
+        
+        //AppDelegate().getInstance().log(message: "\(request.allHTTPHeaderFields!)")*/
+
+        
+        NSURLConnection.sendAsynchronousRequest(request, queue: OperationQueue(), completionHandler:{ (response:URLResponse!, data: Data!, error: Error!) -> Void in
             
             if (ref is UIViewController) && (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled == false {
                 (ref as! UIViewController).navigationController?.view.isUserInteractionEnabled = true
             }
             
-            switch response.result {
+            let aDictResponse: NSDictionary! = try! JSONSerialization.jsonObject(with: data) as? NSDictionary
+            
+            DispatchQueue.main.async {
                 
-            case .success:
-                
-                let aDictResponse = try! JSONSerialization.jsonObject(with: response.data!) as! NSDictionary
-                
-                //AppDelegate().getInstance().log(message: "Response Data: \(aDictResponse)")
-                
-                //Display Success/Fail message of webservice
-                if ((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "status") as! String) == "fail" {
+                if aDictResponse != nil {
                     
-                    if (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "data") is NSDictionary
-                    {
-                        if !(((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "data") as! NSDictionary).allKeys as NSArray).contains("alert")
+                    //Display Success/Fail message of webservice
+                    if ((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "status") as! String) == "fail" {
+                        
+                        if (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "data") is NSDictionary
                         {
+                            if !(((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "data") as! NSDictionary).allKeys as NSArray).contains("alert")
+                            {
+                                UIViewController.presentAlert(title: "", message: (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as? String ?? "", options: "LBL_OK") { (option) in
+                                }
+                            }
+                        }
+                        else {
+                            
+                            UIViewController.presentAlert(title: "", message: (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as? String ?? "", options: "LBL_OK") { (option) in
+                            }
+                        }
+                        
+                    }
+                    else {
+                        
+                        if ((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as! String) != "" {
+                            
                             UIViewController.presentAlert(title: "", message: (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as? String ?? "", options: "LBL_OK") { (option) in
                             }
                         }
                     }
-                    else {
-                        
-                        UIViewController.presentAlert(title: "", message: (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as? String ?? "", options: "LBL_OK") { (option) in
+                    
+                    do
+                    {
+                        if ((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as! String) == "Invalid Token."
+                        {
+                            UIViewController.presentAlert(title: "", message: "MSG_LOGINOTHERDEVICE", options: "LBL_OK") { (option) in
+                            }
                         }
+                        else
+                        {
+                            try ref.getWebserviceResponse(aDictResponse: aDictResponse, aStrTag: aStrTag)
+                        }
+                    }
+                    catch
+                    {
+                        //AppDelegate().getInstance().log(message: "Error")
                     }
                     
                 }
                 else {
                     
-                    if ((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as! String) != "" {
+                    do
+                    {
                         
-                        UIViewController.presentAlert(title: "", message: (aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as? String ?? "", options: "LBL_OK") { (option) in
-                        }
+                        let aStrMessageTag = "MSG_NO_INTERNET"
+                        
+                        let aDicResult = ["status" : "fail", "message" : error.localizedDescription]
+                        try ref.getWebserviceResponse(aDictResponse: ["result" : aDicResult], aStrTag: aStrMessageTag)
                     }
-                }
-                
-                do
-                {
-                    if ((aDictResponse.object(forKey: "result") as! NSDictionary).object(forKey: "message") as! String) == "Invalid Token."
-                    {
-                        UIViewController.presentAlert(title: "", message: "MSG_LOGINOTHERDEVICE", options: "LBL_OK") { (option) in
-                        }
+                    catch {
                     }
-                    else
-                    {
-                        try ref.getWebserviceResponse(aDictResponse: aDictResponse, aStrTag: aStrTag)
-                    }
-                }
-                catch
-                {
-                    //AppDelegate().getInstance().log(message: "Error")
-                }
-                
-                
-            case .failure(let error):
-                
-                let aStrMessageTag = "MSG_NO_INTERNET"
-                if error._code != -999 {
                     
-                    UIViewController.presentAlert(title: "", message: "\(error.localizedDescription)", options: "LBL_OK") { (option) in
-                    }
-                }
-                
-                //AppDelegate().getInstance().log(message: "Response Failed Message: \(error.localizedDescription)")
-                
-                do
-                {
-                    let aDicResult = ["status" : "fail", "message" : error.localizedDescription]
-                    //AppDelegate().getInstance().log(message: "\(["result" : aDicResult])")
-                    
-                    try ref.getWebserviceResponse(aDictResponse: ["result" : aDicResult], aStrTag: aStrMessageTag)
-                }
-                catch
-                {
-                    //AppDelegate().getInstance().log(message: "Error")
                 }
             }
-            
-        }
+        })
         
-    }
-    
-    func methodsToCancelAllRequest() {
-        
-        if #available(iOS 9.0, *) {
-            
-            Alamofire.SessionManager.default.session.getAllTasks(completionHandler: { (task) in
-                task.forEach({$0.cancel()})
-            })
-            
-        } else {
-            
-            // Fallback on earlier versions
-            Alamofire.SessionManager.default.session.getTasksWithCompletionHandler({ dataTasks, uploadTasks, downloadTasks in
-                dataTasks.forEach { $0.cancel() }
-                uploadTasks.forEach { $0.cancel() }
-                downloadTasks.forEach { $0.cancel() }
-            })
-        }
     }
     
 }

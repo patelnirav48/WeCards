@@ -15,6 +15,10 @@ class ViewController: UIViewController, WeCardsSignInDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+    }
+    
+    @IBAction func btnClickActions(_ sender: Any) {
+        
         WCSignIn.sharedInstance().delegate = self
         WCSignIn.sharedInstance().presentViewController(viewController: self)
     }

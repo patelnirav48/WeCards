@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -20,24 +20,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Sign In ExampleVC-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController storyboardIdentifier="WCSignInExampleVC" id="BYZ-38-t0r" customClass="WCSignInExampleVC" customModule="WeCardsSignIn" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KZo-K8-xQd"/>
-                        <viewControllerLayoutGuide type="bottom" id="858-08-dWi"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-601" y="43"/>
-        </scene>
         <!--Sign InVC-->
         <scene sceneID="Ykk-oX-fK7">
             <objects>
@@ -282,11 +264,11 @@
                         <constraints>
                             <constraint firstItem="ykf-Cs-GJR" firstAttribute="top" secondItem="Uzo-XR-h2p" secondAttribute="bottom" id="4hO-Au-jqs"/>
                             <constraint firstItem="ykf-Cs-GJR" firstAttribute="top" secondItem="OYI-Ar-MhY" secondAttribute="bottom" constant="24" id="5EI-br-fcR"/>
-                            <constraint firstItem="OYI-Ar-MhY" firstAttribute="top" secondItem="Uzo-XR-h2p" secondAttribute="top" constant="40" id="5aX-2e-JjY"/>
                             <constraint firstItem="Uzo-XR-h2p" firstAttribute="leading" secondItem="gOY-Od-VlB" secondAttribute="leading" id="Ibt-bG-hby"/>
                             <constraint firstAttribute="trailing" secondItem="Uzo-XR-h2p" secondAttribute="trailing" id="WnZ-Bt-P1q"/>
                             <constraint firstItem="Uzo-XR-h2p" firstAttribute="top" secondItem="gOY-Od-VlB" secondAttribute="top" id="Wrg-tP-er2"/>
                             <constraint firstItem="OYI-Ar-MhY" firstAttribute="leading" secondItem="gOY-Od-VlB" secondAttribute="leading" constant="20" id="a0p-Fe-0yx"/>
+                            <constraint firstItem="OYI-Ar-MhY" firstAttribute="top" secondItem="Uzo-XR-h2p" secondAttribute="top" constant="40" id="h88-7q-ATc"/>
                             <constraint firstAttribute="trailing" secondItem="OYI-Ar-MhY" secondAttribute="trailing" constant="20" id="nzN-UE-lpp"/>
                         </constraints>
                     </view>
@@ -311,7 +293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nlJ-nz-bjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="149.59999999999999" y="42.728635682158924"/>
+            <point key="canvasLocation" x="-1022" y="46"/>
         </scene>
     </scenes>
     <resources>
