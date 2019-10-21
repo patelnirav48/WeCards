@@ -70,21 +70,17 @@ public class WCSignIn: NSObject, WebServiceDelegate {
     public func presentViewController(viewController: UIViewController!) {
         
         targetVC = viewController
-        
-        print("*** Initializing")
+                
+        print("*** Initializing..")
         
         initialize()
         
         //Check & redirect to either app if installed or open custom dialogue of login with WeCards
-        let aStrCustomUrl = String(format: "wecards://?id=wecardsAuth&redirect_uri=%@&packagename=%@", mutDictParams.value(forKey: "app_id") as? String ?? "", mutDictParams.value(forKey: "bundle_identifier") as? String ?? "")
+        /*let aStrCustomUrl = String(format: "wecards://?id=wecardsAuth&redirect_uri=%@&packagename=%@", mutDictParams.value(forKey: "app_id") as? String ?? "", mutDictParams.value(forKey: "bundle_identifier") as? String ?? "")
         let aUrl = URL(string: aStrCustomUrl)!
-        
-        print("*** Trying to open URL")
-        
+                
         if UIApplication.shared.canOpenURL(aUrl) {
-            
-            print("*** Able to open URL")
-            
+                        
             if #available(iOS 10.0, *) {
                 UIApplication.shared.open(aUrl, options: [:])
             } else {
@@ -94,9 +90,8 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         }
         else {
             
-            print("*** Present initiate")
             presentLoginViewController()
-        }
+        }*/
     }
     
     func presentLoginViewController() {
@@ -108,9 +103,7 @@ public class WCSignIn: NSObject, WebServiceDelegate {
                                     "app_name": mutDictParams.value(forKey: "app_name") as? String ?? ""]
         
         if let window = UIApplication.shared.delegate?.window {
-            
-            print("*** Presented")
-            
+                        
             /*window?.windowLevel = UIWindow.Level.alert
              window?.rootViewController?.addChild(aObjSignVC)
              window?.rootViewController?.view.addSubview(aObjSignVC.view)*/
