@@ -71,12 +71,10 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         
         targetVC = viewController
                 
-        print("*** Initializing..")
-        
         initialize()
         
         //Check & redirect to either app if installed or open custom dialogue of login with WeCards
-        /*let aStrCustomUrl = String(format: "wecards://?id=wecardsAuth&redirect_uri=%@&packagename=%@", mutDictParams.value(forKey: "app_id") as? String ?? "", mutDictParams.value(forKey: "bundle_identifier") as? String ?? "")
+        let aStrCustomUrl = String(format: "wecards://?id=wecardsAuth&redirect_uri=%@&packagename=%@", mutDictParams.value(forKey: "app_id") as? String ?? "", mutDictParams.value(forKey: "bundle_identifier") as? String ?? "")
         let aUrl = URL(string: aStrCustomUrl)!
                 
         if UIApplication.shared.canOpenURL(aUrl) {
@@ -91,7 +89,7 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         else {
             
             presentLoginViewController()
-        }*/
+        }
     }
     
     func presentLoginViewController() {
@@ -102,7 +100,14 @@ public class WCSignIn: NSObject, WebServiceDelegate {
                                     "packagename": mutDictParams.value(forKey: "bundle_identifier") as? String ?? "",
                                     "app_name": mutDictParams.value(forKey: "app_name") as? String ?? ""]
         
-        if let window = UIApplication.shared.delegate?.window {
+        if let window = UIApplication.shared.windows.first {
+            
+            window.addSubview(aObjSignVC.view)
+            aObjSignVC.didMove(toParent: targetVC)
+            targetVC.addChild(aObjSignVC)
+        }
+        
+        /*if let window = UIApplication.shared.delegate?.window {
                         
             /*window?.windowLevel = UIWindow.Level.alert
              window?.rootViewController?.addChild(aObjSignVC)
@@ -113,7 +118,7 @@ public class WCSignIn: NSObject, WebServiceDelegate {
             targetVC.addChild(aObjSignVC)
         }
         
-        aObjSignVC.didMove(toParent: targetVC)
+        aObjSignVC.didMove(toParent: targetVC)*/
     }
     
     public func signOut(viewController: UIViewController!, userId: String!, loginToken: String!) {

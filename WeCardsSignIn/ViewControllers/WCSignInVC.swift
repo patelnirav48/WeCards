@@ -505,15 +505,15 @@ extension UIViewController {
             }))
         }
         
-        let alertWindow = UIWindow(frame: UIScreen.main.bounds)
+        /*let alertWindow = UIWindow(frame: UIScreen.main.bounds)
         alertWindow.rootViewController = UIViewController()
         alertWindow.windowLevel = UIWindow.Level.alert + 1;
         alertWindow.makeKeyAndVisible()
-        alertWindow.rootViewController?.present(alertController, animated: true, completion: nil)
+        alertWindow.rootViewController?.present(alertController, animated: true, completion: nil)*/
         
-        /*if let window = UIApplication.shared.windows.last {
+        if let window = UIApplication.shared.windows.last {
             window.rootViewController?.present(alertController, animated: true, completion: nil)
-         }*/
+        }
         
     }
 }
