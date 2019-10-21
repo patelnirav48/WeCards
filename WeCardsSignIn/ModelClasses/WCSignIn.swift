@@ -77,7 +77,11 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         let aStrCustomUrl = String(format: "wecards://?id=wecardsAuth&redirect_uri=%@&packagename=%@", mutDictParams.value(forKey: "app_id") as? String ?? "", mutDictParams.value(forKey: "bundle_identifier") as? String ?? "")
         let aUrl = URL(string: aStrCustomUrl)!
         
+        print("*** Trying to open URL")
+        
         if UIApplication.shared.canOpenURL(aUrl) {
+            
+            print("*** Able to open URL")
             
             if #available(iOS 10.0, *) {
                 UIApplication.shared.open(aUrl, options: [:])
