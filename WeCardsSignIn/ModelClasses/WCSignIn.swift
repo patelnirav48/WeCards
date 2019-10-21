@@ -71,6 +71,8 @@ public class WCSignIn: NSObject, WebServiceDelegate {
         
         targetVC = viewController
         
+        print("*** Initializing")
+        
         initialize()
         
         //Check & redirect to either app if installed or open custom dialogue of login with WeCards
