@@ -1,0 +1,343 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constant"
+provides-nominal:
+- "13WeCardsSignIn8ConstantC"
+- "13WeCardsSignIn8ConstantC4FONTO"
+- "13WeCardsSignIn8ConstantC15structCommanUrlV"
+- "13WeCardsSignIn8ConstantC9structApiV"
+- "13WeCardsSignIn8ConstantC18structDeviceScreenV"
+- "13WeCardsSignIn8ConstantC5colorV"
+- "13WeCardsSignIn8ConstantC12structStaticV"
+- "13WeCardsSignIn8ConstantC17GlobalDeclarationV"
+provides-member:
+- ["13WeCardsSignIn8ConstantC", ""]
+- ["13WeCardsSignIn8ConstantC4FONTO", ""]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", ""]
+- ["13WeCardsSignIn8ConstantC9structApiV", ""]
+- ["13WeCardsSignIn8ConstantC18structDeviceScreenV", ""]
+- ["13WeCardsSignIn8ConstantC5colorV", ""]
+- ["13WeCardsSignIn8ConstantC12structStaticV", ""]
+- ["13WeCardsSignIn8ConstantC17GlobalDeclarationV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- "+"
+- "/"
+- "=="
+- "CGFloat"
+- "Constant"
+- "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSDictionary"
+- "NSLocalizedString"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "UIColor"
+- "UIFont"
+- "UIScreen"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["So6CGRectV", "size"]
+- ["So6CGSizeV", "height"]
+- ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "Constant"]
+- ["s7CVarArgP", "NSDictionary"]
+- ["s7CVarArgP", "NSLocalizedString"]
+- ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "UIFont"]
+- ["s7CVarArgP", "UIScreen"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- ["s7CVarArgP", "bounds"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "structDeviceScreen"]
+- ["13WeCardsSignIn8ConstantC", "CGFloat"]
+- !private ["13WeCardsSignIn8ConstantC", "Constant"]
+- ["13WeCardsSignIn8ConstantC", "FONT"]
+- ["13WeCardsSignIn8ConstantC", "GlobalDeclaration"]
+- ["13WeCardsSignIn8ConstantC", "NSDictionary"]
+- ["13WeCardsSignIn8ConstantC", "NSLocalizedString"]
+- ["13WeCardsSignIn8ConstantC", "String"]
+- ["13WeCardsSignIn8ConstantC", "UIColor"]
+- ["13WeCardsSignIn8ConstantC", "UIFont"]
+- ["13WeCardsSignIn8ConstantC", "UIScreen"]
+- !private ["13WeCardsSignIn8ConstantC", "_findStringSwitchCase"]
+- ["13WeCardsSignIn8ConstantC", "color"]
+- ["13WeCardsSignIn8ConstantC", "deinit"]
+- ["13WeCardsSignIn8ConstantC", "init"]
+- ["13WeCardsSignIn8ConstantC", "structApi"]
+- ["13WeCardsSignIn8ConstantC", "structCommanUrl"]
+- ["13WeCardsSignIn8ConstantC", "structDeviceScreen"]
+- ["13WeCardsSignIn8ConstantC", "structStatic"]
+- !private ["s28CustomDebugStringConvertibleP", "Constant"]
+- ["s28CustomDebugStringConvertibleP", "NSDictionary"]
+- ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- ["s28CustomDebugStringConvertibleP", "UIScreen"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "bounds"]
+- ["s28CustomDebugStringConvertibleP", "height"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "structDeviceScreen"]
+- ["s28CustomDebugStringConvertibleP", "width"]
+- ["s17CustomReflectableP", "height"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "width"]
+- !private ["s23CustomStringConvertibleP", "Constant"]
+- ["s23CustomStringConvertibleP", "NSDictionary"]
+- ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- ["s23CustomStringConvertibleP", "UIScreen"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "bounds"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "structDeviceScreen"]
+- ["Se", "height"]
+- ["Se", "size"]
+- ["Se", "width"]
+- ["SE", "height"]
+- ["SE", "size"]
+- ["SE", "width"]
+- ["SQ", "=="]
+- !private ["SQ", "Constant"]
+- ["SQ", "NSDictionary"]
+- ["SQ", "NSLocalizedString"]
+- ["SQ", "RawValue"]
+- ["SQ", "UIColor"]
+- !private ["SQ", "UIFont"]
+- ["SQ", "UIScreen"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "bounds"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "height"]
+- ["SQ", "init"]
+- ["SQ", "main"]
+- ["SQ", "rawValue"]
+- ["SQ", "size"]
+- !private ["SQ", "structDeviceScreen"]
+- ["SQ", "width"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "=="]
+- ["13WeCardsSignIn8ConstantC4FONTO", "Bold"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "CGFloat"]
+- !private ["13WeCardsSignIn8ConstantC4FONTO", "Constant"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "Light"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "RawValue"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "Regular"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "UIFont"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "_Default_RawValue"]
+- !private ["13WeCardsSignIn8ConstantC4FONTO", "_findStringSwitchCase"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "_rawHashValue"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "deinit"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "hash"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "hashValue"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "init"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "of"]
+- ["13WeCardsSignIn8ConstantC4FONTO", "rawValue"]
+- ["13WeCardsSignIn8ConstantC17GlobalDeclarationV", "NSDictionary"]
+- ["13WeCardsSignIn8ConstantC17GlobalDeclarationV", "dictUserLocation"]
+- ["13WeCardsSignIn8ConstantC17GlobalDeclarationV", "init"]
+- ["SH", "=="]
+- !private ["SH", "Constant"]
+- ["SH", "NSDictionary"]
+- ["SH", "NSLocalizedString"]
+- ["SH", "RawValue"]
+- ["SH", "UIColor"]
+- !private ["SH", "UIFont"]
+- ["SH", "UIScreen"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "bounds"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "main"]
+- ["SH", "rawValue"]
+- !private ["SH", "structDeviceScreen"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "init"]
+- ["So12NSDictionaryC", "init"]
+- ["So17NSFastEnumerationP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "CGFloat"]
+- !private ["So8NSObjectC", "Constant"]
+- ["So8NSObjectC", "NSDictionary"]
+- ["So8NSObjectC", "NSLocalizedString"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIFont"]
+- ["So8NSObjectC", "UIScreen"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- ["So8NSObjectC", "bounds"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "structDeviceScreen"]
+- !private ["So8NSObjectP", "Constant"]
+- ["So8NSObjectP", "NSDictionary"]
+- ["So8NSObjectP", "NSLocalizedString"]
+- ["So8NSObjectP", "UIColor"]
+- !private ["So8NSObjectP", "UIFont"]
+- ["So8NSObjectP", "UIScreen"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_findStringSwitchCase"]
+- ["So8NSObjectP", "bounds"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "structDeviceScreen"]
+- ["So14NSSecureCodingP", "init"]
+- ["SY", "=="]
+- !private ["SY", "Constant"]
+- ["SY", "RawValue"]
+- !private ["SY", "UIFont"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- ["ST", "init"]
+- ["So7UIColorC", "init"]
+- !private ["So6UIFontC", "init"]
+- ["So8UIScreenC", "bounds"]
+- ["So8UIScreenC", "main"]
+- ["So18UITraitEnvironmentP", "bounds"]
+- ["So18UITraitEnvironmentP", "main"]
+- ["s30_CustomPlaygroundQuickLookableP", "height"]
+- ["s30_CustomPlaygroundQuickLookableP", "size"]
+- ["s30_CustomPlaygroundQuickLookableP", "width"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constant"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSDictionary"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIScreen"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "structDeviceScreen"]
+- ["s21_ObjectiveCBridgeableP", "height"]
+- ["s21_ObjectiveCBridgeableP", "size"]
+- ["s21_ObjectiveCBridgeableP", "width"]
+- ["13WeCardsSignIn8ConstantC5colorV", "UIColor"]
+- ["13WeCardsSignIn8ConstantC5colorV", "init"]
+- ["13WeCardsSignIn8ConstantC5colorV", "kTextColor"]
+- ["13WeCardsSignIn8ConstantC5colorV", "kThemeColor"]
+- ["13WeCardsSignIn8ConstantC9structApiV", "init"]
+- ["13WeCardsSignIn8ConstantC9structApiV", "kAPIKey"]
+- ["13WeCardsSignIn8ConstantC9structApiV", "kAPISecret"]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", "init"]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", "kApiUrl"]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", "kCommanUrl"]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", "kDevUrl"]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", "kLiveUrl"]
+- ["13WeCardsSignIn8ConstantC15structCommanUrlV", "kLocalUrl"]
+- ["13WeCardsSignIn8ConstantC18structDeviceScreenV", "UIScreen"]
+- ["13WeCardsSignIn8ConstantC18structDeviceScreenV", "init"]
+- ["13WeCardsSignIn8ConstantC18structDeviceScreenV", "kScreenHeight"]
+- ["13WeCardsSignIn8ConstantC18structDeviceScreenV", "kScreenWidth"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "KMsgNoInternet"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "NSLocalizedString"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "init"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "kAppId"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "kAppUrl"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "kMsgDuration"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "kPrivacy"]
+- ["13WeCardsSignIn8ConstantC12structStaticV", "kTerms"]
+depends-nominal:
+- "So6CGRectV"
+- "So6CGSizeV"
+- "s7CVarArgP"
+- "13WeCardsSignIn8ConstantC"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s30ExpressibleByDictionaryLiteralP"
+- "13WeCardsSignIn8ConstantC4FONTO"
+- "13WeCardsSignIn8ConstantC17GlobalDeclarationV"
+- "SH"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So12NSDictionaryC"
+- "So17NSFastEnumerationP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "SY"
+- "ST"
+- "So7UIColorC"
+- !private "So6UIFontC"
+- "So8UIScreenC"
+- "So18UITraitEnvironmentP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s26_ExpressibleByColorLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "13WeCardsSignIn8ConstantC5colorV"
+- "13WeCardsSignIn8ConstantC9structApiV"
+- "13WeCardsSignIn8ConstantC15structCommanUrlV"
+- "13WeCardsSignIn8ConstantC18structDeviceScreenV"
+- "13WeCardsSignIn8ConstantC12structStaticV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/WeCardsSignIn.h"
+- "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/build/WeCardsSignIn.build/Debug-iphonesimulator/WeCardsSignIn.build/unextended-module.modulemap"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2ac5a64137bb73e7cd7b1115f562ddac"

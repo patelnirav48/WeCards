@@ -1,0 +1,604 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebServiceDelegate"
+- "CCSWebServiceModal"
+provides-nominal:
+- "13WeCardsSignIn18WebServiceDelegateP"
+- "13WeCardsSignIn18CCSWebServiceModalC"
+provides-member:
+- ["13WeCardsSignIn18WebServiceDelegateP", ""]
+- ["13WeCardsSignIn18CCSWebServiceModalC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CCSWebServiceModal"
+- !private "CastingPrecedence"
+- !private "Constant"
+- !private "Data"
+- !private "DispatchQueue"
+- !private "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "JSONSerialization"
+- !private "NSArray"
+- "NSDictionary"
+- !private "NSLocalizedString"
+- "NSMutableDictionary"
+- "NSObject"
+- !private "NSURLConnection"
+- !private "OperationQueue"
+- "Reachability"
+- "String"
+- !private "StringLiteralType"
+- !private "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLResponse"
+- !private "Void"
+- "WebServiceDelegate"
+depends-member:
+- !private ["Sb", "init"]
+- !private ["So15CALayerDelegateP", "isUserInteractionEnabled"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "Bool"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "Constant"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "Data"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "DispatchQueue"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "Error"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "JSONSerialization"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "NSArray"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "NSDictionary"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "NSLocalizedString"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "NSMutableDictionary"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "NSURLConnection"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "OperationQueue"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "Reachability"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "String"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "UIViewController"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "URL"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "URLRequest"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "URLResponse"]
+- !private ["13WeCardsSignIn18CCSWebServiceModalC", "Void"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "WebServiceDelegate"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "callWebservice"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "checkNetworkStatus"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "deinit"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "init"]
+- ["13WeCardsSignIn18CCSWebServiceModalC", "reachability"]
+- !private ["s7CVarArgP", "Bool"]
+- !private ["s7CVarArgP", "Constant"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "NSLocalizedString"]
+- !private ["s7CVarArgP", "NSMutableDictionary"]
+- !private ["s7CVarArgP", "NSURLConnection"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- ["s7CVarArgP", "Reachability"]
+- !private ["s7CVarArgP", "UIViewController"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLRequest"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "allKeys"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "checkNetworkStatus"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isUserInteractionEnabled"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "navigationController"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "presentAlert"]
+- !private ["s7CVarArgP", "reachability"]
+- !private ["s7CVarArgP", "sendAsynchronousRequest"]
+- !private ["s7CVarArgP", "structCommanUrl"]
+- !private ["s7CVarArgP", "view"]
+- !private ["13WeCardsSignIn12ReachabilityC10ConnectionO", "deinit"]
+- !private ["13WeCardsSignIn12ReachabilityC10ConnectionO", "description"]
+- !private ["13WeCardsSignIn8ConstantC", "structCommanUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "Bool"]
+- !private ["s28CustomDebugStringConvertibleP", "Constant"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLocalizedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableDictionary"]
+- !private ["s28CustomDebugStringConvertibleP", "NSURLConnection"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- ["s28CustomDebugStringConvertibleP", "Reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLRequest"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "checkNetworkStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "httpBody"]
+- !private ["s28CustomDebugStringConvertibleP", "httpMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationController"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "presentAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "sendAsynchronousRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "structCommanUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "allKeys"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "httpBody"]
+- !private ["s17CustomReflectableP", "httpMethod"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isUserInteractionEnabled"]
+- !private ["s17CustomReflectableP", "localizedDescription"]
+- !private ["s17CustomReflectableP", "object"]
+- !private ["s23CustomStringConvertibleP", "Bool"]
+- !private ["s23CustomStringConvertibleP", "Constant"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "NSLocalizedString"]
+- !private ["s23CustomStringConvertibleP", "NSMutableDictionary"]
+- !private ["s23CustomStringConvertibleP", "NSURLConnection"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- ["s23CustomStringConvertibleP", "Reachability"]
+- !private ["s23CustomStringConvertibleP", "UIViewController"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLRequest"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "allKeys"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "checkNetworkStatus"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "httpBody"]
+- !private ["s23CustomStringConvertibleP", "httpMethod"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isUserInteractionEnabled"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "navigationController"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "presentAlert"]
+- !private ["s23CustomStringConvertibleP", "reachability"]
+- !private ["s23CustomStringConvertibleP", "sendAsynchronousRequest"]
+- !private ["s23CustomStringConvertibleP", "structCommanUrl"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["Se", "init"]
+- !private ["Se", "isUserInteractionEnabled"]
+- !private ["Se", "localizedDescription"]
+- !private ["Se", "object"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SE", "init"]
+- !private ["SE", "isUserInteractionEnabled"]
+- !private ["SE", "localizedDescription"]
+- !private ["SE", "object"]
+- !private ["SQ", "Bool"]
+- !private ["SQ", "Constant"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "NSLocalizedString"]
+- !private ["SQ", "NSMutableDictionary"]
+- !private ["SQ", "NSURLConnection"]
+- !private ["SQ", "OperationQueue"]
+- ["SQ", "Reachability"]
+- !private ["SQ", "UIViewController"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLRequest"]
+- ["SQ", ""]
+- !private ["SQ", "allKeys"]
+- !private ["SQ", "async"]
+- !private ["SQ", "checkNetworkStatus"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "data"]
+- !private ["SQ", "default"]
+- !private ["SQ", "description"]
+- !private ["SQ", "global"]
+- !private ["SQ", "httpBody"]
+- !private ["SQ", "httpMethod"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isUserInteractionEnabled"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "localizedDescription"]
+- !private ["SQ", "main"]
+- !private ["SQ", "navigationController"]
+- !private ["SQ", "object"]
+- !private ["SQ", "presentAlert"]
+- !private ["SQ", "reachability"]
+- !private ["SQ", "sendAsynchronousRequest"]
+- !private ["SQ", "structCommanUrl"]
+- !private ["SQ", "view"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "allKeys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "object"]
+- !private ["s23ExpressibleByNilLiteralP", "isUserInteractionEnabled"]
+- !private ["s23ExpressibleByNilLiteralP", "localizedDescription"]
+- !private ["s23ExpressibleByNilLiteralP", "object"]
+- !private ["SH", "Bool"]
+- !private ["SH", "Constant"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "NSLocalizedString"]
+- !private ["SH", "NSMutableDictionary"]
+- !private ["SH", "NSURLConnection"]
+- !private ["SH", "OperationQueue"]
+- ["SH", "Reachability"]
+- !private ["SH", "UIViewController"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLRequest"]
+- ["SH", ""]
+- !private ["SH", "allKeys"]
+- !private ["SH", "async"]
+- !private ["SH", "checkNetworkStatus"]
+- !private ["SH", "contains"]
+- !private ["SH", "data"]
+- !private ["SH", "default"]
+- !private ["SH", "description"]
+- !private ["SH", "global"]
+- !private ["SH", "httpBody"]
+- !private ["SH", "httpMethod"]
+- !private ["SH", "init"]
+- !private ["SH", "isUserInteractionEnabled"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "localizedDescription"]
+- !private ["SH", "main"]
+- !private ["SH", "navigationController"]
+- !private ["SH", "object"]
+- !private ["SH", "presentAlert"]
+- !private ["SH", "reachability"]
+- !private ["SH", "sendAsynchronousRequest"]
+- !private ["SH", "structCommanUrl"]
+- !private ["SH", "view"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So7NSArrayC", "contains"]
+- !private ["So8NSCodingP", "allKeys"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isUserInteractionEnabled"]
+- !private ["So8NSCodingP", "navigationController"]
+- !private ["So8NSCodingP", "object"]
+- !private ["So8NSCodingP", "presentAlert"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So9NSCopyingP", "allKeys"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "object"]
+- !private ["So12NSDictionaryC", "allKeys"]
+- !private ["So12NSDictionaryC", "init"]
+- !private ["So12NSDictionaryC", "object"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationController"]
+- !private ["So26NSExtensionRequestHandlingP", "presentAlert"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So17NSFastEnumerationP", "allKeys"]
+- !private ["So17NSFastEnumerationP", "contains"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "object"]
+- !private ["So16NSMutableCopyingP", "allKeys"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "object"]
+- !private ["So19NSMutableDictionaryC", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Constant"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "NSArray"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSLocalizedString"]
+- ["So8NSObjectC", "NSMutableDictionary"]
+- !private ["So8NSObjectC", "NSURLConnection"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "Reachability"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLRequest"]
+- !private ["So8NSObjectC", "URLResponse"]
+- !private ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "WebServiceDelegate"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "allKeys"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "callWebservice"]
+- ["So8NSObjectC", "checkNetworkStatus"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isUserInteractionEnabled"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "navigationController"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "presentAlert"]
+- ["So8NSObjectC", "reachability"]
+- !private ["So8NSObjectC", "sendAsynchronousRequest"]
+- !private ["So8NSObjectC", "structCommanUrl"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "Bool"]
+- !private ["So8NSObjectP", "Constant"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "NSLocalizedString"]
+- !private ["So8NSObjectP", "NSMutableDictionary"]
+- !private ["So8NSObjectP", "NSURLConnection"]
+- !private ["So8NSObjectP", "OperationQueue"]
+- ["So8NSObjectP", "Reachability"]
+- !private ["So8NSObjectP", "UIViewController"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLRequest"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "allKeys"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "checkNetworkStatus"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isUserInteractionEnabled"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "navigationController"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "presentAlert"]
+- !private ["So8NSObjectP", "reachability"]
+- !private ["So8NSObjectP", "sendAsynchronousRequest"]
+- !private ["So8NSObjectP", "structCommanUrl"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So14NSSecureCodingP", "allKeys"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "object"]
+- !private ["So15NSURLConnectionC", "sendAsynchronousRequest"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So16NSOperationQueueC", "init"]
+- !private ["Sq", "isUserInteractionEnabled"]
+- !private ["Sq", "localizedDescription"]
+- !private ["Sq", "object"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["13WeCardsSignIn12ReachabilityC", "connection"]
+- ["13WeCardsSignIn12ReachabilityC", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpBody"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpMethod"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "allKeys"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "object"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", "isUserInteractionEnabled"]
+- !private ["So12UIAppearanceP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "isUserInteractionEnabled"]
+- !private ["So21UIAppearanceContainerP", "navigationController"]
+- !private ["So21UIAppearanceContainerP", "presentAlert"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So18UIContentContainerP", "navigationController"]
+- !private ["So18UIContentContainerP", "presentAlert"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "isUserInteractionEnabled"]
+- !private ["So13UIDynamicItemP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UIFocusEnvironmentP", "navigationController"]
+- !private ["So18UIFocusEnvironmentP", "presentAlert"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "isUserInteractionEnabled"]
+- !private ["So20UIFocusItemContainerP", "isUserInteractionEnabled"]
+- !private ["So22UINavigationControllerC", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "isUserInteractionEnabled"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationController"]
+- !private ["So30UIPasteConfigurationSupportingP", "presentAlert"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So11UIResponderC", "isUserInteractionEnabled"]
+- !private ["So11UIResponderC", "navigationController"]
+- !private ["So11UIResponderC", "presentAlert"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "isUserInteractionEnabled"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationController"]
+- !private ["So30UIResponderStandardEditActionsP", "presentAlert"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "navigationController"]
+- !private ["So16UIStateRestoringP", "presentAlert"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So18UITraitEnvironmentP", "isUserInteractionEnabled"]
+- !private ["So18UITraitEnvironmentP", "navigationController"]
+- !private ["So18UITraitEnvironmentP", "presentAlert"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "isUserInteractionEnabled"]
+- !private ["So23UIUserActivityRestoringP", "navigationController"]
+- !private ["So23UIUserActivityRestoringP", "presentAlert"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "isUserInteractionEnabled"]
+- !private ["So16UIViewControllerC", "navigationController"]
+- !private ["So16UIViewControllerC", "presentAlert"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation10URLRequestV", "httpBody"]
+- !private ["10Foundation10URLRequestV", "httpMethod"]
+- !private ["10Foundation10URLRequestV", "init"]
+- ["13WeCardsSignIn18WebServiceDelegateP", "NSDictionary"]
+- ["13WeCardsSignIn18WebServiceDelegateP", "String"]
+- ["13WeCardsSignIn18WebServiceDelegateP", "getWebserviceResponse"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "allKeys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bool"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Constant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLocalizedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableDictionary"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSURLConnection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkNetworkStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isUserInteractionEnabled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sendAsynchronousRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "structCommanUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "httpBody"]
+- !private ["s21_ObjectiveCBridgeableP", "httpMethod"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isUserInteractionEnabled"]
+- !private ["s21_ObjectiveCBridgeableP", "localizedDescription"]
+- !private ["s21_ObjectiveCBridgeableP", "object"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isUserInteractionEnabled"]
+- !private ["13WeCardsSignIn8ConstantC15structCommanUrlV", "kCommanUrl"]
+depends-nominal:
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "13WeCardsSignIn18CCSWebServiceModalC"
+- "s7CVarArgP"
+- !private "13WeCardsSignIn12ReachabilityC10ConnectionO"
+- !private "13WeCardsSignIn8ConstantC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "So19NSJSONSerializationC"
+- !private "s25LosslessStringConvertibleP"
+- !private "So7NSArrayC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSDictionaryC"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So17NSFastEnumerationP"
+- !private "So16NSMutableCopyingP"
+- !private "So19NSMutableDictionaryC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So15NSURLConnectionC"
+- !private "So9OS_objectC"
+- !private "So16NSOperationQueueC"
+- !private "Sq"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- "13WeCardsSignIn12ReachabilityC"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So22UINavigationControllerC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- "13WeCardsSignIn18WebServiceDelegateP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+- !private "13WeCardsSignIn8ConstantC15structCommanUrlV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/QuartzCore.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Metal.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreFoundation.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/WeCardsSignIn.h"
+- "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/build/WeCardsSignIn.build/Debug-iphonesimulator/WeCardsSignIn.build/unextended-module.modulemap"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode10.2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d10f6bd5dc05712bec49547600247b56"

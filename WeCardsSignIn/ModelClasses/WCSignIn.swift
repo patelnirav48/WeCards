@@ -87,6 +87,8 @@ public class WCSignIn: NSObject, WebServiceDelegate {
             }
         }
         else {
+            
+            print("*** Present initiate")
             presentLoginViewController()
         }
     }
@@ -100,6 +102,8 @@ public class WCSignIn: NSObject, WebServiceDelegate {
                                     "app_name": mutDictParams.value(forKey: "app_name") as? String ?? ""]
         
         if let window = UIApplication.shared.delegate?.window {
+            
+            print("*** Presented")
             
             /*window?.windowLevel = UIWindow.Level.alert
              window?.rootViewController?.addChild(aObjSignVC)

@@ -1,0 +1,10 @@
+framework module WeCardsSignIn {
+  umbrella header "WeCardsSignIn.h"
+
+  export *
+  module * { export * }
+}
+
+module WeCardsSignIn.__Swift {
+    exclude header "WeCardsSignIn-Swift.h"
+}

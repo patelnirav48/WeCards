@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.0 (swiftlang-1001.0.69.5 clang-1001.0.46.3)"
+options: "cee5f14f1d3babba0c1c9a1d1b2290e2"
+build_time: [1554446213, 180270000]
+inputs:
+  "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/SourceFiles/Constant.swift": [1538633828, 0]
+  "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/ModelClasses/WCSignIn.swift": [1544687946, 0]
+  "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/ViewControllers/WCSignInVC.swift": [1544779675, 0]
+  "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/ModelClasses/CCSWebServiceModal.swift": [1544779312, 0]
+  "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/WeCardsSignIn/ThirdPartyCode/Reachibility/Reachability.swift": [1554445973, 72680545]

@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/nirav/Library/Developer/Xcode/DerivedData/WeCardsSignIn-dacvsabidekuueemiaovswglkfuh/Build/Products/Debug-iphonesimulator/WeCardsSignIn.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/nirav/Desktop/PROJECTS/LIVEPROJECTS/WeCard/Code/WeCardsFramework/Swift/GitSetup/WeCards/build/WeCardsSignIn.build/Debug-iphonesimulator/WeCardsSignIn.build/unextended-module.modulemap",
+    }]
+  }]
+}
