@@ -4,5 +4,5 @@ use_frameworks!
 
 target 'WeCardsSignIn-Demo' do
     pod 'WeCardsSignIn', :path => '../'
-    pod 'Alamofire'
+    pod 'Alamofire', '~> 5.2'
 end
