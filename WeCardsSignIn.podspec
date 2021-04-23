@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
           #s.resource_bundles = "WeCardsSignIn/*.{bundle}"
           #s.exclude_files = "WeCardsSignIn/**/*.{framework}"
 
-          s.dependency 'Alamofire', '~> 4.7' 
+          s.dependency 'Alamofire'
          
           #s.frameworks = 'WeCardsSignIn'
 	  #s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
