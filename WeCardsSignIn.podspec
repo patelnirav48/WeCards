@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
           #1.
           s.name               = "WeCardsSignIn"
           #2.
-          s.version            = "1.0"
+          s.version            = "1.5"
           #3.  
           s.summary         = "The WeCards Sign-In iOS quickstart demonstrates how to authenticate people with their WeCards credentials."
           #4.
